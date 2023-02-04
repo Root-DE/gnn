@@ -88,7 +88,7 @@ validation and export) is orchestrated by four abstractions: the
 `DatasetProvider`, `Task`, `Trainer` and `GraphTensorProcessorFn`. The runner
 provides instances for common cases (e.g., the `TFRecordDatasetProvider`, the
 `NodeClassification` task, the `KerasTrainer`), but collaborators are free to
-defne their own. Each abstraction is introduced and explained below.
+define their own. Each abstraction is introduced and explained below.
 
 ### Data Reading
 
